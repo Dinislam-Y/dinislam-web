@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "about": "Обо мне",
+    "skills": "Навыки",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  },
+  "hero": {
+    "name": "Динислам Янурсаев",
+    "title": "Senior QA Automation Engineer",
+    "subtitle": "Создаю надёжную автоматизацию тестирования для Flutter. 2000+ тестов с нуля.",
+    "viewProjects": "Проекты",
+    "contactMe": "Связаться"
+  },
+  "services": {
+    "sectionTitle": "Что я делаю",
+    "testAutomation": {
+      "title": "Автоматизация тестирования",
+      "description": "Построение тестовых фреймворков с нуля — Widget, Golden, E2E. Patrol, Mocktail, CI/CD интеграция с отчётами Allure."
+    },
+    "flutterDev": {
+      "title": "Flutter разработка",
+      "description": "Кроссплатформенные приложения на Clean Architecture, BLoC паттерне и pixel-perfect UI. От идеи до продакшена на iOS, Android и Web."
+    },
+    "qaLeadership": {
+      "title": "QA Лидерство",
+      "description": "Управление QA командами, построение тест-стратегий, сокращение регрессионных циклов. С 3 дней до 18 часов. Рейтинг приложения с 3.8 до 4.5."
+    }
+  },
+  "about": {
+    "sectionTitle": "Опыт",
+    "stats": {
+      "experience": "Лет опыта",
+      "tests": "Автотестов",
+      "companies": "Компании",
+      "lessons": "Уроков создано"
+    },
+    "statsValues": {
+      "experience": "4.5+",
+      "tests": "2000+",
+      "companies": "3",
+      "lessons": "150+"
+    },
+    "description": "От QA Manual до Senior SDET — я создаю надёжные фреймворки для автоматизации тестирования Flutter-приложений. Увлечён качеством, чистой архитектурой и выпуском надёжного ПО.",
+    "timeline": {
+      "tochka": {
+        "company": "Точка Знаний",
+        "role": "Senior QA Automation Engineer",
+        "period": "Октябрь 2024 — настоящее время",
+        "description": "Единственный QA-автоматизатор. Построил тестовую инфраструктуру с нуля: 2000+ автотестов (Widget + Golden + E2E), Patrol, Mocktail. CI/CD с GitLab CI и Allure. Ферма устройств через Firebase Test Lab."
+      },
+      "tooba": {
+        "company": "Tooba",
+        "role": "QA Fullstack",
+        "period": "Январь 2022 — Август 2024",
+        "description": "Лидировал QA-направление. 150+ автотестов с нуля: API (Python, pytest) + Mobile (Flutter). Регресс сократился с 3 дней до 18 часов. Performance: FPS с 30 до 50+, рейтинг приложения с 3.8 до 4.5."
+      },
+      "kalimat": {
+        "company": "Kalimat",
+        "role": "QA Engineer",
+        "period": "Май 2020 — Октябрь 2020",
+        "description": "Функциональное, регрессионное, smoke и приёмочное тестирование веб-продукта. API-тестирование (Python, Postman). Разработка тест-кейсов и тест-планов."
+      }
+    }
+  },
+  "skills": {
+    "sectionTitle": "Технологии",
+    "categories": {
+      "languages": "Языки",
+      "frameworks": "Фреймворки и библиотеки",
+      "testing": "Виды тестирования",
+      "tools": "Инструменты и инфраструктура",
+      "architecture": "Архитектура и паттерны",
+      "platforms": "Платформы"
+    }
+  },
+  "stats": {
+    "sectionTitle": "Цифры и результаты",
+    "items": {
+      "tests": { "value": "2000+", "label": "Автотестов" },
+      "regression": { "value": "83%", "label": "Сокращение регресса" },
+      "rating": { "value": "4.5", "label": "Рейтинг приложения" },
+      "fps": { "value": "50+", "label": "FPS достигнуто" }
+    }
+  },
+  "projects": {
+    "sectionTitle": "Проекты",
+    "phraseGym": {
+      "title": "EnglishFit",
+      "description": "Тренажёр английской грамматики с 150+ уроками. Построен на Clean Architecture и BLoC паттерне. Полное покрытие тестами — 67 тестов.",
+      "tech": "Flutter, Clean Architecture, BLoC, Firebase",
+      "highlights": "150+ уроков • 67 тестов"
+    },
+    "flingArrows": {
+      "title": "Fling Arrows",
+      "description": "Логическая игра-головоломка с 50 уровнями и процедурной генерацией. Кастомный рендеринг через CustomPainter и надёжное управление состоянием.",
+      "tech": "Flutter, CustomPainter, BLoC",
+      "highlights": "50 уровней • 48 тест-файлов"
+    },
+    "vpn": {
+      "title": "VPN Инфраструктура",
+      "description": "Собственная VPN-инфраструктура с устойчивостью к DPI и прозрачным проксированием. Создана для приватности и свободного доступа в интернет.",
+      "tech": "Linux, gRPC, Networking",
+      "highlights": "Защита от DPI • Прозрачный прокси"
+    },
+    "demo": "Демо",
+    "github": "GitHub",
+    "play": "Играть",
+    "rustore": "RuStore"
+  },
+  "contact": {
+    "sectionTitle": "Давайте работать вместе",
+    "nameLabel": "Имя",
+    "emailLabel": "Email",
+    "messageLabel": "Сообщение",
+    "send": "Отправить",
+    "downloadCV": "Скачать CV",
+    "namePlaceholder": "Ваше имя",
+    "emailPlaceholder": "ваш@email.com",
+    "messagePlaceholder": "Ваше сообщение...",
+    "available": "Доступен для проектов"
+  },
+  "footer": {
+    "builtWith": "Создано с Next.js, Framer Motion и Tailwind CSS",
+    "rights": "Все права защищены.",
+    "navigation": "Навигация",
+    "social": "Соцсети",
+    "connect": "Связь"
+  }
+}

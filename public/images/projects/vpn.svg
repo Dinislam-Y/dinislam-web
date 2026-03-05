@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.1)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <!-- Hexagonal mesh pattern -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1" fill="none">
+    <!-- Row 1 -->
+    <polygon points="200,80 240,57 280,80 280,126 240,149 200,126"/>
+    <polygon points="280,80 320,57 360,80 360,126 320,149 280,126"/>
+    <polygon points="440,80 480,57 520,80 520,126 480,149 440,126"/>
+    <polygon points="520,80 560,57 600,80 600,126 560,149 520,126"/>
+    <!-- Row 2 -->
+    <polygon points="160,149 200,126 240,149 240,195 200,218 160,195"/>
+    <polygon points="240,149 280,126 320,149 320,195 280,218 240,195"/>
+    <polygon points="320,149 360,126 400,149 400,195 360,218 320,195"/>
+    <polygon points="480,149 520,126 560,149 560,195 520,218 480,195"/>
+    <polygon points="560,149 600,126 640,149 640,195 600,218 560,195"/>
+    <!-- Row bottom -->
+    <polygon points="200,620 240,597 280,620 280,666 240,689 200,666"/>
+    <polygon points="280,620 320,597 360,620 360,666 320,689 280,666"/>
+    <polygon points="440,620 480,597 520,620 520,666 480,689 440,666"/>
+    <polygon points="520,620 560,597 600,620 600,666 560,689 520,666"/>
+    <polygon points="240,689 280,666 320,689 320,735 280,758 240,735"/>
+    <polygon points="480,689 520,666 560,689 560,735 520,758 480,735"/>
+  </g>
+
+  <!-- Shield icon -->
+  <g transform="translate(340, 240)">
+    <path d="M60,0 C60,0 120,20 120,20 L120,80 C120,120 60,150 60,150 C60,150 0,120 0,80 L0,20 Z"
+          fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+    <!-- Lock keyhole -->
+    <circle cx="60" cy="70" r="16" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2.5"/>
+    <rect x="53" y="82" width="14" height="20" rx="3" fill="rgba(255,255,255,0.2)"/>
+    <circle cx="60" cy="70" r="5" fill="rgba(255,255,255,0.3)"/>
+  </g>
+
+  <!-- Connection lines radiating from center -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="6,8">
+    <line x1="400" y1="340" x2="150" y2="180"/>
+    <line x1="400" y1="340" x2="650" y2="180"/>
+    <line x1="400" y1="340" x2="120" y2="500"/>
+    <line x1="400" y1="340" x2="680" y2="500"/>
+    <line x1="400" y1="340" x2="250" y2="700"/>
+    <line x1="400" y1="340" x2="550" y2="700"/>
+  </g>
+
+  <!-- Endpoint nodes -->
+  <g fill="rgba(255,255,255,0.12)">
+    <circle cx="150" cy="180" r="8"/>
+    <circle cx="650" cy="180" r="8"/>
+    <circle cx="120" cy="500" r="8"/>
+    <circle cx="680" cy="500" r="8"/>
+    <circle cx="250" cy="700" r="6"/>
+    <circle cx="550" cy="700" r="6"/>
+  </g>
+  <g fill="rgba(255,255,255,0.25)">
+    <circle cx="150" cy="180" r="3"/>
+    <circle cx="650" cy="180" r="3"/>
+    <circle cx="120" cy="500" r="3"/>
+    <circle cx="680" cy="500" r="3"/>
+    <circle cx="250" cy="700" r="2.5"/>
+    <circle cx="550" cy="700" r="2.5"/>
+  </g>
+
+  <!-- Floating rounded rectangles -->
+  <rect x="620" y="350" width="70" height="45" rx="10" fill="url(#accent)" transform="rotate(-10 655 372)"/>
+  <rect x="80" y="350" width="55" height="35" rx="8" fill="url(#accent)" transform="rotate(8 107 367)"/>
+
+  <!-- Project name -->
+  <text x="400" y="480" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif" font-size="64" font-weight="700" fill="white" letter-spacing="6">VPN</text>
+
+  <!-- Subtitle -->
+  <text x="400" y="520" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.5)" letter-spacing="3">PROJECT PREVIEW</text>
+</svg>

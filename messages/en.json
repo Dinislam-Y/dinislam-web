@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Dinislam Yanursaev",
+    "title": "Senior QA Automation Engineer",
+    "subtitle": "Building robust test automation for Flutter apps. 2000+ tests from scratch.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "services": {
+    "sectionTitle": "What I Do",
+    "testAutomation": {
+      "title": "Test Automation",
+      "description": "Building comprehensive test suites from scratch — Widget, Golden, E2E. Patrol, Mocktail, CI/CD integration with Allure reporting."
+    },
+    "flutterDev": {
+      "title": "Flutter Development",
+      "description": "Cross-platform apps with Clean Architecture, BLoC pattern, and pixel-perfect UI. From concept to production on iOS, Android & Web."
+    },
+    "qaLeadership": {
+      "title": "QA Leadership",
+      "description": "Leading QA teams, building test strategies, cutting regression cycles. From 3-day regression to 18 hours. App rating from 3.8 to 4.5."
+    }
+  },
+  "about": {
+    "sectionTitle": "Experience",
+    "stats": {
+      "experience": "Years Experience",
+      "tests": "Automated Tests",
+      "companies": "Companies",
+      "lessons": "Lessons Built"
+    },
+    "statsValues": {
+      "experience": "4.5+",
+      "tests": "2000+",
+      "companies": "3",
+      "lessons": "150+"
+    },
+    "description": "From QA Manual to Senior SDET — I build robust test automation frameworks for Flutter applications. Passionate about quality, clean architecture, and shipping reliable software.",
+    "timeline": {
+      "tochka": {
+        "company": "Tochka Znaniy",
+        "role": "Senior QA Automation Engineer",
+        "period": "October 2024 — Present",
+        "description": "Sole QA automation engineer. Built entire test infrastructure from scratch: 2000+ automated tests (Widget + Golden + E2E), Patrol, Mocktail. CI/CD with GitLab CI and Allure. Device farm via Firebase Test Lab."
+      },
+      "tooba": {
+        "company": "Tooba",
+        "role": "QA Fullstack",
+        "period": "January 2022 — August 2024",
+        "description": "Led the QA team. 150+ automated tests from scratch: API (Python, pytest) + Mobile (Flutter). Regression cut from 3 days to 18 hours. Performance: FPS from 30 to 50+, app rating from 3.8 to 4.5."
+      },
+      "kalimat": {
+        "company": "Kalimat",
+        "role": "QA Engineer",
+        "period": "May 2020 — October 2020",
+        "description": "Functional, regression, smoke and acceptance testing of a web product. API testing (Python, Postman). Test case and test plan development."
+      }
+    }
+  },
+  "skills": {
+    "sectionTitle": "Tech Stack",
+    "categories": {
+      "languages": "Languages",
+      "frameworks": "Frameworks & Libraries",
+      "testing": "Testing Types",
+      "tools": "Tools & Infrastructure",
+      "architecture": "Architecture & Patterns",
+      "platforms": "Platforms"
+    }
+  },
+  "stats": {
+    "sectionTitle": "Impact & Numbers",
+    "items": {
+      "tests": { "value": "2000+", "label": "Automated Tests" },
+      "regression": { "value": "83%", "label": "Regression Time Cut" },
+      "rating": { "value": "4.5", "label": "App Store Rating" },
+      "fps": { "value": "50+", "label": "FPS Achieved" }
+    }
+  },
+  "projects": {
+    "sectionTitle": "Projects",
+    "phraseGym": {
+      "title": "EnglishFit",
+      "description": "English Grammar Trainer with 150+ lessons. Built with Clean Architecture and BLoC pattern. Comprehensive test coverage with 67 tests.",
+      "tech": "Flutter, Clean Architecture, BLoC, Firebase",
+      "highlights": "150+ lessons • 67 tests"
+    },
+    "flingArrows": {
+      "title": "Fling Arrows",
+      "description": "Logic puzzle game with 50 levels featuring procedural generation. Custom rendering with CustomPainter and robust state management.",
+      "tech": "Flutter, CustomPainter, BLoC",
+      "highlights": "50 levels • 48 test files"
+    },
+    "vpn": {
+      "title": "VPN Infrastructure",
+      "description": "Self-hosted VPN solution with DPI resistance and transparent proxying. Built for privacy and unrestricted internet access.",
+      "tech": "Linux, gRPC, Networking",
+      "highlights": "DPI resistance • Transparent proxy"
+    },
+    "demo": "Demo",
+    "github": "GitHub",
+    "play": "Play",
+    "rustore": "RuStore"
+  },
+  "contact": {
+    "sectionTitle": "Let's Work Together",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "send": "Send Message",
+    "downloadCV": "Download CV",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "Your message...",
+    "available": "Available for projects"
+  },
+  "footer": {
+    "builtWith": "Built with Next.js, Framer Motion & Tailwind CSS",
+    "rights": "All rights reserved.",
+    "navigation": "Navigation",
+    "social": "Social",
+    "connect": "Connect"
+  }
+}

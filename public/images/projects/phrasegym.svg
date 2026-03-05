@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.03)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bg)" rx="0"/>
+
+  <!-- Decorative grid of dots -->
+  <g fill="rgba(255,255,255,0.07)">
+    <circle cx="100" cy="100" r="4"/><circle cx="180" cy="100" r="4"/><circle cx="260" cy="100" r="4"/>
+    <circle cx="340" cy="100" r="4"/><circle cx="420" cy="100" r="4"/><circle cx="500" cy="100" r="4"/>
+    <circle cx="580" cy="100" r="4"/><circle cx="660" cy="100" r="4"/><circle cx="100" cy="180" r="4"/>
+    <circle cx="180" cy="180" r="4"/><circle cx="260" cy="180" r="4"/><circle cx="340" cy="180" r="4"/>
+    <circle cx="420" cy="180" r="4"/><circle cx="500" cy="180" r="4"/><circle cx="580" cy="180" r="4"/>
+    <circle cx="660" cy="180" r="4"/><circle cx="100" cy="260" r="4"/><circle cx="180" cy="260" r="4"/>
+    <circle cx="260" cy="260" r="4"/><circle cx="340" cy="260" r="4"/><circle cx="420" cy="260" r="4"/>
+    <circle cx="500" cy="260" r="4"/><circle cx="580" cy="260" r="4"/><circle cx="660" cy="260" r="4"/>
+    <circle cx="100" cy="620" r="4"/><circle cx="180" cy="620" r="4"/><circle cx="260" cy="620" r="4"/>
+    <circle cx="340" cy="620" r="4"/><circle cx="420" cy="620" r="4"/><circle cx="500" cy="620" r="4"/>
+    <circle cx="580" cy="620" r="4"/><circle cx="660" cy="620" r="4"/><circle cx="100" cy="700" r="4"/>
+    <circle cx="180" cy="700" r="4"/><circle cx="260" cy="700" r="4"/><circle cx="340" cy="700" r="4"/>
+    <circle cx="420" cy="700" r="4"/><circle cx="500" cy="700" r="4"/><circle cx="580" cy="700" r="4"/>
+    <circle cx="660" cy="700" r="4"/>
+  </g>
+
+  <!-- Large decorative circles -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+  <circle cx="600" cy="600" r="200" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+  <circle cx="650" cy="150" r="100" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Floating geometric shapes -->
+  <rect x="80" y="500" width="60" height="60" rx="12" fill="url(#accent)" transform="rotate(15 110 530)"/>
+  <rect x="620" y="300" width="80" height="80" rx="16" fill="url(#accent)" transform="rotate(-20 660 340)"/>
+  <rect x="300" y="620" width="50" height="50" rx="10" fill="url(#accent)" transform="rotate(30 325 645)"/>
+
+  <!-- Central glowing circle -->
+  <circle cx="400" cy="360" r="120" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="400" cy="360" r="80" fill="rgba(255,255,255,0.06)"/>
+
+  <!-- Chat bubble icon hint -->
+  <g transform="translate(360, 310)" fill="rgba(255,255,255,0.25)">
+    <rect x="0" y="0" width="80" height="55" rx="14"/>
+    <polygon points="20,55 30,72 42,55"/>
+    <circle cx="22" cy="27" r="5" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="40" cy="27" r="5" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="58" cy="27" r="5" fill="rgba(255,255,255,0.5)"/>
+  </g>
+
+  <!-- Project name -->
+  <text x="400" y="470" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif" font-size="52" font-weight="700" fill="white" letter-spacing="1">PhraseGym</text>
+
+  <!-- Subtle tagline -->
+  <text x="400" y="510" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.5)" letter-spacing="3">PROJECT PREVIEW</text>
+</svg>

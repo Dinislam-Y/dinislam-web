@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.1)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <!-- Diagonal lines pattern -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1.5">
+    <line x1="0" y1="200" x2="200" y2="0"/>
+    <line x1="0" y1="320" x2="320" y2="0"/>
+    <line x1="0" y1="440" x2="440" y2="0"/>
+    <line x1="0" y1="560" x2="560" y2="0"/>
+    <line x1="0" y1="680" x2="680" y2="0"/>
+    <line x1="0" y1="800" x2="800" y2="0"/>
+    <line x1="120" y1="800" x2="800" y2="120"/>
+    <line x1="240" y1="800" x2="800" y2="240"/>
+    <line x1="360" y1="800" x2="800" y2="360"/>
+    <line x1="480" y1="800" x2="800" y2="480"/>
+    <line x1="600" y1="800" x2="800" y2="600"/>
+  </g>
+
+  <!-- Decorative triangles -->
+  <polygon points="120,650 170,560 220,650" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <polygon points="600,120 660,40 720,120" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <polygon points="80,150 110,90 140,150" fill="rgba(255,255,255,0.05)"/>
+
+  <!-- Target circles -->
+  <circle cx="400" cy="340" r="130" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="2"/>
+  <circle cx="400" cy="340" r="95" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="2"/>
+  <circle cx="400" cy="340" r="60" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <circle cx="400" cy="340" r="25" fill="rgba(255,255,255,0.1)"/>
+
+  <!-- Arrow icon -->
+  <g transform="translate(370, 290) rotate(45 30 50)" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.3)" stroke-width="1">
+    <line x1="30" y1="10" x2="30" y2="90" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="18,22 30,2 42,22" fill="rgba(255,255,255,0.3)" stroke="none"/>
+    <!-- Fletching -->
+    <line x1="30" y1="90" x2="20" y2="80" stroke-width="2" stroke-linecap="round"/>
+    <line x1="30" y1="90" x2="40" y2="80" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating diamonds -->
+  <rect x="650" y="500" width="40" height="40" rx="4" fill="url(#accent)" transform="rotate(45 670 520)"/>
+  <rect x="100" y="380" width="30" height="30" rx="3" fill="url(#accent)" transform="rotate(45 115 395)"/>
+  <rect x="560" y="650" width="25" height="25" rx="3" fill="url(#accent)" transform="rotate(45 572 662)"/>
+
+  <!-- Small scattered dots -->
+  <g fill="rgba(255,255,255,0.12)">
+    <circle cx="300" cy="150" r="3"/>
+    <circle cx="520" cy="200" r="2.5"/>
+    <circle cx="180" cy="500" r="3"/>
+    <circle cx="650" cy="400" r="2.5"/>
+    <circle cx="350" cy="680" r="3"/>
+    <circle cx="500" cy="620" r="2"/>
+    <circle cx="250" cy="300" r="2"/>
+    <circle cx="700" cy="250" r="2.5"/>
+  </g>
+
+  <!-- Project name -->
+  <text x="400" y="470" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif" font-size="52" font-weight="700" fill="white" letter-spacing="1">Fling Arrows</text>
+
+  <!-- Subtitle -->
+  <text x="400" y="510" text-anchor="middle" font-family="'SF Pro Display', 'Inter', 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.5)" letter-spacing="3">PROJECT PREVIEW</text>
+</svg>
