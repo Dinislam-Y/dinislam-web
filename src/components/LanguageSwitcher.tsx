@@ -1,16 +1,14 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { useRouter, usePathname } from '@/i18n/navigation';
 
 export default function LanguageSwitcher() {
   const locale = useLocale();
-  const router = useRouter();
-  const pathname = usePathname();
 
   const toggle = () => {
     const next = locale === 'en' ? 'ru' : 'en';
-    router.replace(pathname, { locale: next });
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    window.location.href = `${basePath}/${next}`;
   };
 
   return (
