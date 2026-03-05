@@ -27,6 +27,12 @@ jobs:
       - run: npm install
       - run: npm run build
 
+      - name: Add root redirect
+        run: |
+          cat > out/index.html << 'REDIRECT'
+          <!DOCTYPE html><html><head><meta http-equiv="refresh" content="0;url=./en.html" /></head><body></body></html>
+          REDIRECT
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
